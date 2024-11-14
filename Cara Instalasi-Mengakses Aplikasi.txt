@@ -1,0 +1,11 @@
+Cara Instalasi Aplikasi :
+1. Extract File zip
+2. Buka file zip dengan Visual Studio Code
+3. Buka terminal pada Visual Studio Code
+4. Ketikan "python app2.py" pada terminal untuk menjalankan aplikasi
+file app2.py adalah file yang akan menjalankan aplikasi
+5. Setelahnya, akan muncul link aplikasi yang dimulai dengan https://...
+6. Buka link tersebut pada browser, maka aplikasi sudah bisa dijalankan
+7. Tambahan, aplikasi ini menggunakan model yang dilatih dengan data training, oleh karena itu
+pengguna bisa menggunakan sample dataset training yang sudah disediakan developer 
+untuk menguji aplikasi. Sample dataset tersebut ada pada folder "Sample Dataset"
