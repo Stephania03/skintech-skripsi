@@ -124,20 +124,9 @@
                   <!--<li><i class="ri-check-double-line"></i> Latar belakang foto sebisa mungkin adalah latar belakang polos</li>-->
                   <li><i class="ri-check-double-line"></i> Format foto adalah png/jpg/jpeg</li>
                 </ul>
-
-                <form method="POST" action="/predict" enctype="multipart/form-data">
-                  <br>
-                  <label for="photo">Upload Photo </label>
-                  <input type="file" name="photo" id="photo" accept="image/*" class="btn btn-primary">
-                  <br>
-                  <br>
-                  <input type="submit" value="Predict" class="btn btn-primary">
-                </form>
+                <h3>Hasil Deteksi Jenis Penyakit Kulit</h3>
+                <h5>Anda menderita penyakit {{ prediction }}</h5>
                 <br>
-                <br>
-                <br>
-                <br>
-                
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
                 <img src="static\images\contoh-penyakit.jpg" alt="" class="img-fluid" width="1000" height="1000" >
